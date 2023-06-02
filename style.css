@@ -72,3 +72,26 @@ ul{
 .conteudo-flex a{
     padding-top:10px;
 }
+
+.conteudo-flex > h1 > i{
+    align-items: center;
+}
+
+@media screen and (max-width: 499px){
+    .fa-xmark{
+        left: 40px;
+    }
+}
+
+@media screen and (max-width: 404px){
+    .conteudo-flex h1{
+        font-size: 26px;
+        padding-left: 15px;
+    }
+
+    .fa-xmark{
+        font-size: 25px;
+        left: 25px;
+        
+    }
+}
