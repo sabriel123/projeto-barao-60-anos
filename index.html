@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d913e226cd.js" crossorigin="anonymous"></script>
+    <script>function alternarConteudo() {
+        var conteudo = document.getElementById("conteudo");
+        conteudo.classList.toggle("aberto");
+        conteudo.classList.toggle("oculto");
+      }</script>
+    <title>Projeto Barão 60 anos</title>
+</head>
+<body>
+
+    <header>
+
+        <h1>Logomarca</h1>
+
+        <i onclick="alternarConteudo()" class="fa-solid fa-bars"></i>
+
+    </header>
+
+    <div id="conteudo" class="oculto">
+        <div class="conteudo-flex">
+            <h1>Acesso rápido <i onclick="alternarConteudo()" class="fa-solid fa-xmark"></i> </h1>
+            <a href="#">1. Construção do Barão</a>
+            <a href="#">2. Construção do Barão</a>
+            <a href="#">3. Construção do Barão</a>
+        </div>
+    </div>
+
+    
+</body>
+</html>
